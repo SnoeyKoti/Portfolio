@@ -1,0 +1,172 @@
+head
+* {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #ee55ca;
+    color: white;
+  }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+header {
+    background: coral;
+    padding: 20px;
+    text-align: center;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+
+nav ul {
+    background: #333;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding: 10px
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+
+main {
+    padding: 20px;
+
+}
+
+
+img{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+
+h2 {
+    margin: 20px 0;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table, 
+th, 
+td {
+    border: 1px solid #ccc;
+    padding: 10 px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-container {
+    margin: 20px 0;
+}
+
+#imageUpload {
+    margin: 20px 0;
+}
+
+#imageDisplayArea {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imageDisplayArea img{
+    max-width: 100px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-botton:hover{ 
+    background-color: #0056b3;
+}
+footer {
+    background:coral;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
